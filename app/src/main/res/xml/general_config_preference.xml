@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/default_email"
+        android:key="email"
+        android:summary="@string/summary_email"
+        android:title="@string/title_email" />
+
+    <ListPreference
+        android:defaultValue="@string/default_action"
+        android:entries="@array/options_default_action"
+        android:entryValues="@array/values_default_action"
+        android:key="default_action"
+        android:summary="@string/summary_default_action"
+        android:title="@string/title_default_action" />
+
+    <PreferenceCategory android:title="@string/category_confirm">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="confirm_delete"
+            android:title="@string/title_confirm_before_delete" />
+
+        <CheckBoxPreference
+            android:key="confirm_archive"
+            android:title="@string/title_confirm_before_archive" />
+
+        <CheckBoxPreference
+            android:key="confirm_sending"
+            android:title="@string/title_confirm_before_sending" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

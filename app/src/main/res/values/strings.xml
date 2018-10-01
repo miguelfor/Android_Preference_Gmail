@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Configuración Gmail</string>
+    <string name="title_email">Correo electrónico</string>
+    <string name="summary_email">Dirección de correo electrónico de Gmail</string>
+    <string name="default_email">usuario@nextuniversity.com</string>
+    <string name="default_action">archive</string>
+    <string name="summary_default_action">Acción que hace cuando se arrastra un correo hacia los lados</string>
+    <string name="title_default_action">Acción predeterminada de Gmail</string>
+    <string name="category_confirm">Acciones de confirmación</string>
+    <string name="title_confirm_before_delete">Confirmar antes de eliminar un correo</string>
+    <string name="title_confirm_before_archive">Confirmar antes de archivar un correo</string>
+    <string name="title_confirm_before_sending">Confirmar antes de enviar un correo</string>
+
+    <string-array name="options_default_action">
+        <item>Eliminar</item>
+        <item>Archivar</item>
+    </string-array>
+    <string-array name="values_default_action">
+        <item>delete</item>
+        <item>archive</item>
+    </string-array>
+</resources>
